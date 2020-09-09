@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  background-color: white;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.welcomeText{
+  font-size: 20px;
+
+}
+
+.app__form{
+  padding:20px;
+  position: fixed;
+  bottom:0;
+  z-index: 1;
+  background-color: #89ABE3FF;
+  width:94%;
+  margin:10px 20px !important;
+  border-radius: 20px;
+}
+
+.app__formControl{
+  display: flex !important;
+  flex-direction: row !important;
+}
+.app__input{
+  flex:1;
+}
+.app__iconButton{
+  flex:0;
+}
+.messages__box{
+  padding-bottom:10%;
+}
+
